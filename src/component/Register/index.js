@@ -47,7 +47,7 @@ const Reister = ()=>{
                     <input onChange={onChangeDOB} type='Date' id='DOB'  />
                 </div>
                 <button  className='btn-register'>Register</button>
-                <Link className='btn-login' to='/login'>
+                <Link className='btn-login' to='/'>
                  Go Login
                 </Link>
             </form>
